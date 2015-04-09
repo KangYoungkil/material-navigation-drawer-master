@@ -6,12 +6,12 @@
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/Documents/Compiler/gradle-2.2.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Compiler/gradle-2.2.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/WishPlace" />
             <option value="$PROJECT_DIR$/navigation-drawer" />
-            <option value="$PROJECT_DIR$/navigation-drawer-sample" />
           </set>
         </option>
       </GradleProjectSettings>

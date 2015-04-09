@@ -2,81 +2,95 @@
 <items version="2" >
 
     <item
-        jar="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/bross/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/library-2.4.0-7c973e63dfc800062aeda1341d9d605f1f4c6c3f.jar" />
+    </item>
+    <item
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-4725629708d85f092158610fb2634ae97e30efb1.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1744059a4e99c369586e809e3cceb8474067d515.jar" />
+    </item>
+    <item
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/libs/libDaumMapAndroid.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/libDaumMapAndroid-922b55be0ed3a381b3b491ccdf0b0f20e9046581.jar" />
     </item>
     <item
         jar="/Users/bross/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.7.1/8fa5f11686c7a44386b41a6890e655cf2b7d5e70/timber-2.7.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="8fa5f11686c7a44386b41a6890e655cf2b7d5e70">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/timber-2.7.1-ea86e04d53a54ab127e73368ca425cdae2bbb002.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/timber-2.7.1-ea86e04d53a54ab127e73368ca425cdae2bbb002.jar" />
     </item>
     <item
         jar="/Users/bross/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/aspectjrt-1.8.5-56b51a4b3b7257df892149cc28d1286f142bc957.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/aspectjrt-1.8.5-56b51a4b3b7257df892149cc28d1286f142bc957.jar" />
+    </item>
+    <item
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/classes-3f1d74cf0baba0716b9b6c61d850dd8840bc45cf.jar" />
     </item>
     <item
         jar="/Users/bross/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/butterknife-6.1.0-dc61e4a075c99e0fc1a18987f2047f28789ed996.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/butterknife-6.1.0-dc61e4a075c99e0fc1a18987f2047f28789ed996.jar" />
     </item>
     <item
         jar="/Users/bross/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/hugo-annotations-1.2.1-fc738c8f512375bb4e99f379cbbc0bba1bffe794.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/hugo-annotations-1.2.1-fc738c8f512375bb4e99f379cbbc0bba1bffe794.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/classes-dd95c209c95123199aae65b56cca9ff7ee642000.jar" />
+    </item>
+    <item
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/exploded-aar/WishPlace/navigation-drawer/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0b726c5242f3450e764d374cf72baeb9e14e0cc2">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/classes-1026c36fafe39d38cc29a07178b25b316e51a3cc.jar" />
+    </item>
+    <item
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/classes-a811c5fea46a96a92e1ccd6cfd1448d0ae49500e.jar" />
-    </item>
-    <item
-        jar="/Users/bross/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/library-2.4.0-7c973e63dfc800062aeda1341d9d605f1f4c6c3f.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/classes-82da29bd6f10f9c0b03319724051d853552f447f.jar" />
     </item>
     <item
         jar="/Users/bross/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-baa2b7a71b29709f48d5629f7765bddfa3ffeb71.jar" />
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-baa2b7a71b29709f48d5629f7765bddfa3ffeb71.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/exploded-aar/material-navigation-drawer-master/navigation-drawer/unspecified/debug/classes.jar"
+        jar="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/libs/google-play-services.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="64cff37438ed1bf2e7ed23674bca500094afe977">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/classes-3a408c8caf72ff5294fea66780ae8ba98553c095.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/classes-b7bd0320f2357539ef4a4f5ae5eaa9d78057a7f0.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer-sample/build/intermediates/pre-dexed/debug/classes-3ace99a4e15cf195b353a86592cb168f0c7ffa30.jar" />
+        sha1="826507592fec9d8e26db18364e709df133c749ce">
+        <dex dex="/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/WishPlace/build/intermediates/pre-dexed/debug/google-play-services-a0c38861b9e64f3e8ca2c51d53f89a105565bfbb.jar" />
     </item>
 
 </items>

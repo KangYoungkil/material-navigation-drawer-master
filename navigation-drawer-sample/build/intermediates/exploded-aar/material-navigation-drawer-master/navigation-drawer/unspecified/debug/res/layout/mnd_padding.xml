@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:visibility="invisible"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/mnd_unit"/>
-<!-- From: file:/Volumes/Data/Download/material-navigation-drawer-master/navigation-drawer/src/main/res/layout/mnd_padding.xml -->

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/material-navigation-drawer-master.iml" filepath="$PROJECT_DIR$/material-navigation-drawer-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WishPlace/WishPlace.iml" filepath="$PROJECT_DIR$/WishPlace/WishPlace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WishPlace/WishPlace-WishPlace.iml" filepath="$PROJECT_DIR$/WishPlace/WishPlace-WishPlace.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigation-drawer/navigation-drawer.iml" filepath="$PROJECT_DIR$/navigation-drawer/navigation-drawer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/navigation-drawer-sample/navigation-drawer-sample.iml" filepath="$PROJECT_DIR$/navigation-drawer-sample/navigation-drawer-sample.iml" />
     </modules>
   </component>
 </project>

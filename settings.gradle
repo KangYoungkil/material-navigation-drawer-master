@@ -1,1 +1,1 @@
-include ':navigation-drawer', ':navigation-drawer-sample'
+include ':navigation-drawer', ':WishPlace'
