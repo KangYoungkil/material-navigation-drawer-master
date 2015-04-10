@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/values-v21/styles.xml -->
-    <eat-comment />
+    <eat-comment/>
 
     <style name="TextAppearance.MaterialNavigationDrawer.Badge" parent="">
         <item name="android:textSize">12sp</item>
@@ -19,7 +19,7 @@
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.MaterialNavigationDrawer.Item.Selected" />
+    <style name="TextAppearance.MaterialNavigationDrawer.Item.Selected"/>
 
     <style name="TextAppearance.MaterialNavigationDrawer.Section" parent="">
         <item name="android:textSize">14sp</item>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="?android:colorForegroundInverse"
     android:id="@+id/mnd_list_compact"
     android:dividerHeight="0px"
@@ -13,4 +14,5 @@
     android:layout_height="wrap_content">
     <!--android:background="@android:color/transparent"-->
 
-</ListView><!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_list_compact.xml -->
+</ListView>
+    <!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_list_compact.xml -->

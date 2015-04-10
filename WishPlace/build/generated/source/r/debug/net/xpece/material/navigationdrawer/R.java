@@ -34,14 +34,14 @@ public final class R {
 		public static final int mnd_shadow_right = 0x7f020052;
 	}
 	public static final class id {
-		public static final int badge = 0x7f0a005a;
-		public static final int divider = 0x7f0a005f;
+		public static final int badge = 0x7f0a0059;
+		public static final int divider = 0x7f0a005e;
 		public static final int icon = 0x7f0a0026;
-		public static final int mnd_divider_pinned = 0x7f0a005d;
-		public static final int mnd_list = 0x7f0a005b;
-		public static final int mnd_list_compact = 0x7f0a005e;
-		public static final int mnd_section_pinned = 0x7f0a005c;
-		public static final int text = 0x7f0a0058;
+		public static final int mnd_divider_pinned = 0x7f0a005c;
+		public static final int mnd_list = 0x7f0a005a;
+		public static final int mnd_list_compact = 0x7f0a005d;
+		public static final int mnd_section_pinned = 0x7f0a005b;
+		public static final int text = 0x7f0a0057;
 	}
 	public static final class layout {
 		public static final int mnd_heading = 0x7f04001e;

@@ -9,6 +9,7 @@
     <string name="title_activity_join">JoinActivity</string>
     <string name="sex_prompt">choose your sex</string>
     <string name="job_prompt">choose your job</string>
+    <string name="birth_year_prompt">choose your birth year</string>
     <string name="title_activity_find_id">FindIDActivity</string>
     <string name="title_activity_find_password">FindPasswordActivity</string>
     <string name="title_activity_wish_place">WishPlaceActivity</string>

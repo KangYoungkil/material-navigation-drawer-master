@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -33,11 +34,12 @@
         <View
             android:id="@+id/mnd_divider_pinned"
             android:layout_width="match_parent"
-            android:layout_height="1dp" />
+            android:layout_height="1dp"/>
 
         <View
             android:visibility="invisible"
             android:layout_width="0dp"
-            android:layout_height="7dp" />
+            android:layout_height="7dp"/>
     </net.xpece.material.navigationdrawer.internal.NoBackgroundMeasureLinearLayout>
-</RelativeLayout><!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_list.xml -->
+</RelativeLayout>
+    <!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_list.xml -->

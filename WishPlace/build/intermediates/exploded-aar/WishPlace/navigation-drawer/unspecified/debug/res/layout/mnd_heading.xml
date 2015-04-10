@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:text="@android:string/untitled"
     android:textAppearance="@style/TextAppearance.MaterialNavigationDrawer.Section"
@@ -10,4 +11,5 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/mnd_list_item_height_small">
 
-</TextView><!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_heading.xml -->
+</TextView>
+    <!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_heading.xml -->

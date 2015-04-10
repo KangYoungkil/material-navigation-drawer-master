@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="@dimen/mnd_padding_horizontal"
     android:paddingRight="@dimen/mnd_padding_horizontal"
@@ -17,7 +18,7 @@
         android:layout_marginLeft="@dimen/mnd_unit_double"
         android:layout_marginStart="@dimen/mnd_unit_double"
         android:layout_gravity="center_vertical"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:layout_marginLeft="@dimen/mnd_unit_double"
@@ -31,5 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.MaterialNavigationDrawer.Item"
-        android:maxLines="1" />
-</LinearLayout><!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_item_base.xml -->
+        android:maxLines="1"/>
+</LinearLayout>
+    <!-- From: file:/Users/bross/Documents/Coding/AndroidStudioProjects/WishPlace/navigation-drawer/src/main/res/layout/mnd_item_base.xml -->

@@ -19,18 +19,35 @@ import android.widget.Toast;
 import bross.wishplace.json.JSONParser;
 import bross.wishplace.material.R;
 
+import android.location.LocationManager;
+import android.location.Location;
+
+import com.google.android.gms.maps.model.LatLng;
+
 public class JoinActivity extends ActionBarActivity implements View.OnClickListener {
 
-    EditText inputEmail;
-    EditText inputPhone;
-    EditText inputPassword1;
-    EditText inputPassword2;
-    Spinner selectSex;
-    EditText inputAddress;
-    EditText inputAge;
-    Spinner selectJob;
-    CheckBox checkAgree;
+    private EditText inputEmail;
+    private EditText inputPhone;
+    private EditText inputPassword1;
+    private EditText inputPassword2;
+    private Spinner selectSex;
+    private EditText inputAddress;
+    private Spinner selectBirthYear;
+    private CheckBox checkAgree;
 
+    private LocationManager locationManager;
+    private String provider;
+    private String locationName;
+    private LatLng latlng;
+
+    private String[] getBirthYear() {
+        final int BIRTH_YEAR_SIZE = 87;
+        String[] birthYearArr = new String[BIRTH_YEAR_SIZE];
+        birthYearArr[0] = "선택해 주세요";
+        for (int i = 0; i < BIRTH_YEAR_SIZE - 1; i++)
+            birthYearArr[i + 1] = String.valueOf(i + 1930);
+        return birthYearArr;
+    }
     private void init() {
         findViewById(R.id.join_btn_cancle).setOnClickListener(this);
         findViewById(R.id.join_btn_ok).setOnClickListener(this);
@@ -40,20 +57,41 @@ public class JoinActivity extends ActionBarActivity implements View.OnClickListe
         inputPassword2 = (EditText) findViewById(R.id.join_input_password_2);
         selectSex = (Spinner) findViewById(R.id.join_select_sex);
         inputAddress = (EditText) findViewById(R.id.join_input_address);
-        inputAge = (EditText) findViewById(R.id.join_input_age);
-        selectJob = (Spinner) findViewById(R.id.join_select_job);
         checkAgree = (CheckBox) findViewById(R.id.join_check_agree);
+        selectBirthYear = (Spinner) findViewById(R.id.join_select_birth_year);
 
 
         String[] optionSex = getResources().getStringArray(R.array.sex_prompt);
         ArrayAdapter<String> sexAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, optionSex);
         selectSex.setAdapter(sexAdapter);
 
-        String[] optionJob = getResources().getStringArray(R.array.job_prompt);
-        ArrayAdapter<String> jobAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, optionJob);
-        selectJob.setAdapter(jobAdapter);
+        String[] optionBirthYear = getBirthYear();
+        ArrayAdapter<String> birthYearAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, optionBirthYear);
+        selectBirthYear.setAdapter(birthYearAdapter);
 
         setPhoneNumber();
+
+    }
+
+
+    private void getCurrentLocation() {
+        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        provider = LocationManager.GPS_PROVIDER;
+        Location currentLocation = new Location(LocationManager.GPS_PROVIDER);
+        try {
+            currentLocation = locationManager
+                    .getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+            if (currentLocation == null) {
+                provider = LocationManager.GPS_PROVIDER;
+                currentLocation = locationManager
+                        .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+            }
+            latlng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
+        } catch (Exception e) {
+            Log.i("Error", e.toString());
+            Log.i("LM", Context.LOCATION_SERVICE.toString());
+        }
 
     }
 
@@ -167,15 +205,9 @@ public class JoinActivity extends ActionBarActivity implements View.OnClickListe
                     return;
                 }
 
-                if (inputAge.getText().toString().equals("")) {
+                if (selectBirthYear.getPrompt().toString()
+                        .equals("선택해 주세요")) {
                     Toast.makeText(getApplicationContext(), "나이를 입력해주세요",
-                            Toast.LENGTH_SHORT).show();
-                    inputPassword1.setFocusable(true);
-                    return;
-                }
-
-                if (selectJob.getPrompt().toString().equals("선택해 주세요")) {
-                    Toast.makeText(getApplicationContext(), "직업을 선택해주세요.",
                             Toast.LENGTH_SHORT).show();
                     inputPassword1.setFocusable(true);
                     return;
@@ -186,6 +218,7 @@ public class JoinActivity extends ActionBarActivity implements View.OnClickListe
                             .show();
                     return;
                 }
+
 
                 String url = "user/user_join.jsp?";
                 url += "email=";
@@ -198,10 +231,8 @@ public class JoinActivity extends ActionBarActivity implements View.OnClickListe
                 url += selectSex.getSelectedItem().toString();
                 url += "&address=";
                 url += inputAddress.getText().toString().replace(' ', '_');
-                url += "&age=";
-                url += inputAge.getText().toString();
-                url += "&job=";
-                url += selectJob.getSelectedItem().toString();
+                url += "&birthYear=";
+                url += selectBirthYear.getSelectedItem().toString();
 
                 JSONParser json = new JSONParser("join", url);
                 json.execute();
